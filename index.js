@@ -4,11 +4,11 @@ const chat = require("./chat");
 let rup = [];
 
 client.on("ready", () => {
-  console.log("Moon Walker Is Ready");
+  console.log("your chat bot is ready");
 });
 
 client.on("message", message => {
-  let channel = "736515762944213012";
+  let channel = "add ur channel id here";
   if (!message.author.bot && message.channel.id == channel) {
     let ree = message.content || "Hi";
     message.channel.startTyping();
@@ -21,4 +21,4 @@ client.on("message", message => {
     });
   }
 });
-client.login("NzAwNjk0MzI0NjY4NzkyODQ0.XpmqcQ.Lc9PNG_liAgbTNJ462UO0q3Sppo");
+client.login("add your token here");
