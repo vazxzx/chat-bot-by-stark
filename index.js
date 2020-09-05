@@ -1,6 +1,7 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 const chat = require("./chat");
+const sqlite = require('sqlite3').verbose(); 
 let rup = [];
 
 client.on("ready", () => {
